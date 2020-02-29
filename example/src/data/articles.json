@@ -1,0 +1,15 @@
+{
+    "count": 5,
+    "articles": [
+        {
+            "title": "title 1",
+            "author": "author 1",
+            "content": "content 1"
+        },
+        {
+            "title": "title 2",
+            "author": "author 2",
+            "content": "content 2"
+        }
+    ]
+}
