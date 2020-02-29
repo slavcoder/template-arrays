@@ -1,0 +1,16 @@
+{
+  "name": "template-arrays",
+  "version": "0.1.0",
+  "description": "Template arrays - experimental concept of using simple JS arrays to render HTML ",
+  "source": "src/index.js",
+  "main": "dist/js/index.js",
+  "scripts": {
+    "build": "microbundle --format cjs",
+    "dev": "microbundle --format cjs watch"
+  },
+  "author": "slavcoder",
+  "license": "ISC",
+  "devDependencies": {
+    "microbundle": "^0.12.0-next.8"
+  }
+}
