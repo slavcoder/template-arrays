@@ -1,6 +1,6 @@
 import updateAttributes from './update-attributes'
 
-function render(array, mod = {}, validate = false) {
+function render(array, mod = {}) {
     const arr = [... array]
     let res = ''
     let arrLength = arr.length
@@ -41,7 +41,7 @@ function render(array, mod = {}, validate = false) {
 
         res += `<${arr[i][0]}${attributesString}>`
     }
-
+    
     return res
 }
 

@@ -1,15 +1,53 @@
 {
-    "count": 5,
-    "articles": [
+    "all": [
         {
-            "title": "title 1",
-            "author": "author 1",
-            "content": "content 1"
+            "title": "Why template arrays?",
+            "author": "slavcoder",
+            "content": [
+                ["p", {"class": "paragraph"}],
+                    "This is an experiment which I believe may be useful in some JavaScript libraries or maybe even for a simple templates like in this example.",
+                ["/p"],
+                ["p", {"class": "paragraph"}],
+                    "Even though this is more difficult to use on the begining (those commas gonna kill me some day), I think it gives more flexibility and clarity than template strings.",
+                ["/p"]
+            ]
         },
         {
-            "title": "title 2",
-            "author": "author 2",
-            "content": "content 2"
+            "title": "Advanteges of template arrays",
+            "author": "slavcoder",
+            "content": [
+                ["p"],
+                    "\"Using arrays to render html? Is there a doctor in this file?\"",
+                ["p"],
+                ["p"],"Advanteges:",["p"],
+                ["ul", {"class": "paragraph"}],
+                    ["li"],"you can use them inside .json file (this article is an example of it) and still use <b>var</b> and <b>attr</b> to change parts of its content and attributes of elements just before render html (which is a better way if you care about performance than changing it by DOM queries)",
+                    ["li"],"pretty fast, test below is: ",
+                        ["ul"],
+                            ["li"],"up to <b>10 000</b> span elements",["/li"],
+                            ["li"],"you can choose to order them from lightest to darkest and vice verse",["/li"],
+                            ["li"],"each element have random background color",["/li"],
+                            ["li"],"each element have font color black or white (depends on background color)",["/li"],
+                            ["li"],"you can check in console rendering time (it depends on your machine obviously and can be much faster without this ridiculous color calculations i made)",["/li"],
+                        ["/ul"],
+                    ["/li"],
+                    ["li"],"easy to use - no functions, <b>template array</b> is ready to use after define",["/li"],
+                    ["li"],"easy to learn, it is basicly <b>html</b> inside arrays",
+                    ["li"], "this is an example paragraphs with links inside:",
+                        ["pre"],
+                            "[\n",
+                                "    ['p'],['a', {class:'link'}],'text',['/a'],['/p'],\n",
+                                "    ['p'],['a', {class:'link'}],'text',['/a'],['/p'],\n",
+                                "    ['p'],['a', {class:'link'}],'text',['/a'],['/p'],\n",
+                                "    ['p'],['a', {class:'link'}],'text',['/a'],['/p']\n",
+                            "]",
+                        ["/pre"],
+                    ["/li"],
+                ["/ul"],
+                ["p"],
+                    "And of course, this is a simple demostration - it can be done by <b>template strings</b> as well, but I think that <b>template arrays</b> have more possiblities. I'm working on JS library using this concept for simple render and manipalate DOM - nothing special (lawa, version 1.0.0 still not released).",
+                ["/p"]
+            ]
         }
     ]
 }

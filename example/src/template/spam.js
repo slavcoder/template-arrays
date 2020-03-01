@@ -9,7 +9,6 @@ const styles = {
         margin: 1px 1px;
         padding: 5px;
         min-width: 50px;
-        border: 1px solid white;
     `
 }
 

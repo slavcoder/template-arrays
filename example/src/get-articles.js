@@ -8,15 +8,14 @@ function getArticles(data) {
     data.forEach(item => {
         allArticles += render(article, {
             var: {
-                title: [item.title],
-                author: [item.author],
-                content: [item.content]
+                title: item.title,
+                author: item.author,
+                content: item.content
             }
         })
     })
 
-    articlesContainer.innerHTML += allArticles 
+    articlesContainer.innerHTML = allArticles 
 }
-
 
 export default getArticles
