@@ -15,7 +15,7 @@ const styles = {
 const spam = [
     ['span', {attr:'spam', style: styles.spam}],
         {var: 'random'},
-    ['/span']
+    ['/span'],
 ]
 
 export default spam

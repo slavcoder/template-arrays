@@ -9,7 +9,6 @@ function getArticles(data) {
         allArticles += render(article, {
             var: {
                 title: item.title,
-                author: item.author,
                 content: item.content
             }
         })

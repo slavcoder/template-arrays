@@ -27,8 +27,17 @@ const spam = [
 const main = [
     ['main', {class: 'main'}],
         ['h1'],
-            'Found ', {var: 'countArticles'}, ' articles',
+            "Template arrays example of usage",
         ['/h1'],
+        ['p'],
+            'check out ',
+            ['a', {href:'https://github.com/slavcoder/template-arrays/tree/master/example'}],'code',['/a'],
+            ' of this site',
+        ['/p'],
+        ['p'],
+            'check out template arrays ',
+            ['a', {href:'https://github.com/slavcoder/template-arrays'}],'repo',['/a'],
+        ['/p'],
         ['div', {class:'articlesContainer'}],['/div'],
         ... spam,
     ['/main']

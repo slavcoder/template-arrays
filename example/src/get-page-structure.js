@@ -3,16 +3,10 @@ import nav from './template/nav'
 import main from './template/main'
 import {footer, footerMod} from './template/footer'
 
-function getPageStructure(articlesCount) {
-    let page = ''
-    
-    page += render(nav)
-    page += render(main, {
-        var: {
-            countArticles: articlesCount
-        }
-    })
-    page += render(footer, footerMod)
+function getPageStructure() {
+    const page = render(nav)
+               + render(main)
+               + render(footer, footerMod)
 
     document.body.innerHTML = page 
 }
