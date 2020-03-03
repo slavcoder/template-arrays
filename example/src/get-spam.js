@@ -23,8 +23,8 @@ function getSpam() {
             const colorCount = red + green + blue
 
             const orderValue = {
-                'random': () => 0,
-                'darkest': () => colorCount,
+                'random':   () => 0,
+                'darkest':  () => colorCount,
                 'lightest': () => 1000 - colorCount
             }
 
@@ -41,7 +41,7 @@ function getSpam() {
                             order: ${orderValue[order]()};
                         `,
                         id: `spam-${i}`,
-                        title: rgb,
+                        title: rgb
                     }
                 }
             })

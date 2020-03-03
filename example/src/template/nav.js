@@ -1,9 +1,5 @@
 // this is just beautiful, isn't it?
-
-const link = {
-    author: 'https://github.com/slavcoder',
-    project: 'https://github.com/slavcoder/template-arrays'
-}
+import links from '../helper/links'
 
 const hamburger = [
     ['button', {class:'nav_hamburger hamburger'}],
@@ -16,10 +12,10 @@ const hamburger = [
 const menu = [
     ['ul', {class:'nav_menu menu'}],
         ['li', {class:'menu_item'}],
-            ['a', {class:'menu_link', href:link.author}],'author',['/a'],
+            ['a', {class:'menu_link', href:links.author}],'author',['/a'],
         ['/li'],
         ['li', {class:'menu_item'}],
-            ['a', {class:'menu_link', href:link.project}],'project',['/a'],
+            ['a', {class:'menu_link', href:links.repo}],'project',['/a'],
         ['/li'],
     ['/ul']
 ]

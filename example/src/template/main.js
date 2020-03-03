@@ -1,3 +1,5 @@
+import links from '../helper/links'
+
 const styles = {
     spamContainer: `
         display: flex;
@@ -30,13 +32,13 @@ const main = [
             "Template arrays example of usage",
         ['/h1'],
         ['p'],
-            'check out ',
-            ['a', {href:'https://github.com/slavcoder/template-arrays/tree/master/example'}],'code',['/a'],
+            'Check out the ',
+            ['a', {href:links.code}],'code',['/a'],
             ' of this site',
         ['/p'],
         ['p'],
-            'check out template arrays ',
-            ['a', {href:'https://github.com/slavcoder/template-arrays'}],'repo',['/a'],
+            'Check out template arrays ',
+            ['a', {href:links.repo}],'repo',['/a'],
         ['/p'],
         ['div', {class:'articlesContainer'}],['/div'],
         ... spam,
