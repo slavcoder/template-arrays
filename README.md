@@ -3,7 +3,7 @@
 
 ## About
 
-Template arrays are another way to render DOM elements by JavaScript using valid arrays with very some rules as described in examples below.
+Template arrays are another way to render DOM elements by JavaScript using valid arrays with some rules as described in examples below.
 
 It can be usefull in some situations or as a part of a JavaScript library.
 
