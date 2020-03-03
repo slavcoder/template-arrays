@@ -3,16 +3,16 @@
 
 ## About
 
-Template arrays are another way to render DOM elements by JavaScript using valid arrays with very basic rules as described in examples below.
+Template arrays are another way to render DOM elements by JavaScript using valid arrays with very some rules as described in examples below.
 
-I believe that it can be usefull in some situations and has a potential to be a part of some JavaScript library.
+It can be usefull in some situations or as a part of a JavaScript library.
 
-You can test it in your project if you like. 
+You can test it in your project if you like.
 
 ## Install
 
 ```sh
-npm install --save-dev template-arrays
+npm install template-arrays
 ```
 
 ## Usage
@@ -22,7 +22,7 @@ import render from 'template-arrays'
 ```
 
 ## Example
-Defining template arrays and rendering them into body with special options to update choosen attributes and add special elements
+Defining template arrays and rendering them into body with options to update choosen attributes and add special elements
 
 ```js
 const hamburger = [

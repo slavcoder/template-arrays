@@ -42,7 +42,7 @@ const mod = {
             ['img', {src:'https://placekitten.com/g/200/300', class:'footer_img'}]
         ],
 
-        // don't do this (loop is called inside links and looking for loop again,
+        // don't do this (loop is called inside cats and looking for loop again,
         // it is a well known infinite loop - avoid this)
 
         // infinite loop example:
