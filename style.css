@@ -156,6 +156,12 @@ pre {
 }
 
 .spam span {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 1px;
+    padding: 5px;
+    width: 50px;
     transition: color .2s;
 }
 
