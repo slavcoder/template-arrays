@@ -19,6 +19,7 @@ const spam = [
             ['option', {value:'10'}], "10 items", ['/option'],
             ['option', {value:'100'}], "100 items", ['/option'],
             ['option', {value:'1000'}], "1 000 items", ['/option'],
+            ['option', {value:'5000'}], "5 000 items", ['/option'],
             ['option', {value:'10000'}], "10 000 items", ['/option'],
         ['/select'],
         ['button', {class:'spam_button'}],"run spam test",['/button'],
