@@ -1,6 +1,6 @@
 {
     "name": "template-arrays",
-    "version": "0.1.3",
+    "version": "0.1.4",
     "description": "Template arrays - experimental concept of using simple JS arrays to render HTML ",
     "source": "src/render.js",
     "main": "dist/render.js",
