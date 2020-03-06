@@ -1,25 +1,25 @@
 {
-  "name": "template-arrays",
-  "version": "0.1.3",
-  "description": "Template arrays - experimental concept of using simple JS arrays to render HTML ",
-  "source": "src/render.js",
-  "main": "dist/render.js",
-  "scripts": {
-    "build": "microbundle --format cjs",
-    "dev": "microbundle --format cjs watch",
-    "build-example": "microbundle -i example/src/index.js -o example/dist/index.js --format cjs",
-    "dev-example": "microbundle -i example/src/index.js -o example/dist/index.js --format cjs watch"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/slavcoder/template-arrays.git"
-  },
-  "author": {
-    "name": "slavcoder",
-    "url": "https://github.com/slavcoder"
-  },
-  "license": "MIT",
-  "devDependencies": {
-    "microbundle": "^0.12.0-next.8"
-  }
+    "name": "template-arrays",
+    "version": "0.1.3",
+    "description": "Template arrays - experimental concept of using simple JS arrays to render HTML ",
+    "source": "src/render.js",
+    "main": "dist/render.js",
+    "scripts": {
+        "build": "microbundle --format cjs",
+        "dev": "microbundle --format cjs watch",
+        "build-example": "microbundle -i example/src/index.js -o example/dist/index.js --format cjs",
+        "dev-example": "microbundle -i example/src/index.js -o example/dist/index.js --format cjs watch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/slavcoder/template-arrays.git"
+    },
+    "author": {
+        "name": "slavcoder",
+        "url": "https://github.com/slavcoder"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "microbundle": "^0.12.0-next.8"
+    }
 }

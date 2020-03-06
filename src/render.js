@@ -32,7 +32,15 @@ function render(array, mod = {}) {
             }
 
             const attrKeys = Object.keys(attributes)
+
             attrKeys.forEach(attr => {
+                if(attr == 'style') {
+                    // remove empty spaces from style attribute
+                    attributes[attr] = attributes[attr].split(';')
+                                                       .map(el => el.trim())
+                                                       .join(';')
+                }
+
                 if(attr != 'attr') {
                     attributesString += ` ${attr}="${attributes[attr]}"`
                 }

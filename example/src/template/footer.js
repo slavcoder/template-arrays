@@ -20,13 +20,17 @@ const mod = {
         // and even do this again in this scope, like in 'cats var' below
         // no need to worry about order, you can define img2 earlier as well or not define at all
         img2: [
-            ['img', {src:'https://placekitten.com/200/300', class:'footer_img'}]
+            ['img', {
+                src:'https://placekitten.com/200/300', 
+                class:'footer_img',
+                alt: 'cat'
+            }]
         ],
 
         cats: [
             ['div', {class:'footer_imgContainer'}],
                 ['p', {class:'footer_paragraph'}],
-                    'cute cat images inside div from ',
+                    'cute cat images from ',
                     ['a', {href:'https://placekitten.com'}],'placekitten.com',['/a'],
                 ['/p'],
                 {var: 'img1'},
@@ -39,7 +43,11 @@ const mod = {
         ],
 
         img1: [
-            ['img', {src:'https://placekitten.com/g/200/300', class:'footer_img'}]
+            ['img', {
+                src:'https://placekitten.com/g/200/300', 
+                class:'footer_img',
+                alt: 'cat'
+            }]
         ],
 
         // don't do this (loop is called inside cats and looking for loop again,
